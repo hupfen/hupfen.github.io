@@ -1,17 +1,16 @@
 # Site settings
-title: Clean Blog
+title: Hupfen
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+email: zoe@hupfen.com
+description: "A blog and portfolio for Zoe Landon, web developer and internet rabbit"
+baseurl: ""
+url: "http://hupfen.com"
+twitter_username: hupfen
+github_username:  hupfen
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
