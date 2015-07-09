@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Zoe Landon: Web developer, product designer, internet rabbit"
+---
+
+<section class="home posts">
+  <h2>Recent Posts</h2>
+  {% for post in site.posts %}
+    <article><h3><a href="{{ post.url }}">{{ post.title }}</a> <small><time>{{ post.date | date_to_string }}</time></small></h3>
+      {% if post.img %}
+      <div class="img-preview" style="background-image:url({{site.url}}{{post.img}})" >&nbsp;</div>
+      {% endif %}
+    <div class="excerpt">{{ post.excerpt | strip_html }}</div></article>
+  {% endfor %}
+</section>

@@ -1,0 +1,80 @@
+@import 'skeleton';
+
+html {
+  background-color: $dark-grey;
+}
+
+body {
+  font-size: 1.7em;
+}
+
+h1 {
+  color: $primary-color;
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  small {
+    letter-spacing: 0;
+    font-size: 50%;
+    color: $light-grey;
+  }
+}
+
+#main-content {
+  margin-top: 5em;
+}
+
+.excerpt {
+  margin-bottom: 1em;
+}
+
+.img-preview {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 1em;
+    border-radius: $global-radius;
+}
+
+ul {
+  &.unstyled {
+    list-style: none;
+  }
+
+  &.inline > li {
+    display: inline-block;
+  }
+}
+
+code {
+  background: transparent;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: scale-color($font-color, $lightness: -15%)
+}
+
+.full-width {
+  width: 100%;
+}
+
+img {
+  border-radius: $global-radius;
+  margin-bottom: 2em;
+}
+
+#newsletter {
+  border: 1px solid $font-color;
+  border-radius: $global-radius;
+  padding: 1rem 1.5rem;
+}

@@ -1,16 +1,43 @@
-# Site settings
-title: Hupfen
-header-img: img/home-bg.jpg
-email: zoe@hupfen.com
-description: "A blog and portfolio for Zoe Landon, web developer and internet rabbit"
-baseurl: ""
-url: "http://hupfen.com"
-twitter_username: hupfen
-github_username:  hupfen
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
 
-# Build settings
+name: Hupfen
+description: "Zoe Landon: Web developer, product designer, internet rabbit"
+author:
+  name: Zoe Landon
+  email: zoe@leporidaemedia.com
+  github: hupfen
+  twitter: hupfen
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+permalink: /:year/:month/:day/:title
+paginate: 5
+paginate_path: 'page:num'
+
+# Markdown library
 markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
+#   coderay:
+#     coderay_wrap: div
+#     coderay_line_numbers: inline
+#     coderay_line_numbers_start: 1
+#     coderay_tab_width: 4
+#     coderay_bold_every: 10
+#     coderay_css: style
+
+pygments: true

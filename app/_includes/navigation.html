@@ -1,0 +1,28 @@
+<section class="four columns">
+  <hgroup>
+  <h1>Zoe Landon<br>
+    <small>also referred to as</small><br>
+      Hupfen<br></h1>
+      <i class="subhead">Comments on technology, trivia, business, music, and furries</i>
+    </hgroup>
+<hr>
+<nav id="sitemap">
+  <h2>Segments</h2>
+  <ul class="unstyled">
+    <li><a class="button full-width" href="/">Home</a></li>
+    <li><a class="button full-width" href="/bio">Biography</a></li>
+    <li><a class="button full-width" href="/talks">Talks</a></li>
+    <li><a class="button full-width" href="/projects">Projects</a></li>
+    <li><a class="button full-width" href="/contact">Contact</a></li>
+    <ul>
+</nav>
+<hr>
+<nav id="posts">
+  <h2>Latest Posts</h2>
+  <ul class="unstyled">
+    {% for post in site.posts %}
+      <li><a class="button full-width"  href="{{ post.url }}"><time>{{ post.date | date_to_string }}</time>: {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+</section>
