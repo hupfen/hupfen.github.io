@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="post">
-<h2>{{ page.title }}<br><small><time>{{ page.date | date_to_string }}</time></small></h2>
+<h2>{{ page.title }}<br><small><time>{{ page.date | date_to_string }}</time> under {{ page.category }}</small></h2>
 {% if page.img %}
 <img src="{{ site.url }}/{{ page.img }}" class="u-max-full-width" />
 {% endif %}
@@ -10,6 +10,14 @@ layout: default
 
 <hr>
 <aside id="newsletter">
+  <p class="text-center">If this was helpful or interesting, feel free to share. I'd greatly appreciate it.</p>
+  <ul class="inline unstyled text-center">
+    <li><a href="https://twitter.com/home?status=Found an interesting post by @hupfen... http://hupfen.com/{{page.category}}/{{page.date | date: "%Y/%m/%d"}}/{{page.slug | slugify}}" class="button"><i class="fab fab-twitter bt-2x"></i></a></li>
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://hupfen.com/{{page.category}}/{{page.date | date: "%Y/%m/%d"}}/{{page.slug | slugify}}" class="button"><i class="fab fab-facebook-alt bt-2x"></i></a></li>
+    <li><a href="mailto:?&subject=Found this post, think you might find it interesting&body=Check%20this%20post%20out,%20let%20me%20know%20what%20you%20think.%20{{page.slug | uri_escape}}: http://hupfen.com/{{page.category}}/{{page.date | date: "%Y/%m/%d"}}/{{page.title | slugify}}" class="button"><i class="btl bt-envelope bt-2x"></i></a></li>
+    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=http://hupfen.com/{{page.category}}/{{page.date | date: "%Y/%m/%d"}}/{{page.slug | slugify}}/&title={{page.title | uri_escape}}&summary={{ page.excerpt | strip_html | uri_escape}}&source=http://hupfen.com" class="button"><i class="fab fab-linkedin-alt bt-2x"></i></a></li>
+    <li><a href="https://plus.google.com/share?url=http://hupfen.com/{{page.category}}/{{page.date | date: "%Y/%m/%d"}}/{{page.slug | slugify}}" class="button"><i class="fab fab-googleplus-alt bt-2x"></i></a></li>
+  </ul>
   <p><em>I try to write regularly on interesting things &mdash; typically more interesting than regular.
      If you'd like, enter your email below and I'll let you know when I put something up. That's all.</em></p>
   <!-- Begin MailChimp Signup Form -->

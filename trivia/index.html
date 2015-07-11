@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Posts on: Trivia"
+---
+<section class="home posts">
+  <h2>Recent Posts</h2>
+  {% for post in site.posts %}
+    {% if post.categories contains 'trivia' %}
+    <article><h3><a href="{{ post.url }}">{{ post.title }}</a><br><small><time>{{ post.date | date_to_string }}</time></small></h3>
+      {% if post.img %}
+      <div class="img-preview" style="background-image:url(/{{site.url}}{{post.img}})" >&nbsp;</div>
+      {% endif %}
+    <div class="excerpt">{{ post.excerpt | strip_html }}</div></article>
+    {% endif %}
+  {% endfor %}
+</section>

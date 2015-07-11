@@ -33,6 +33,16 @@
                         </a>
                     </li>
                     {% endif %}
+                    {% if site.author.linkedin %}
+                    <li>
+                        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">
+                            <span class="bt-stack bt-2x">
+                                <i class="btl bt-circle bt-stack-1x"></i>
+                                <i class="fab fab-linkedin-alt bt-stack-sm bt-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
                     {% if site.author.github %}
                     <li>
                         <a href="https://github.com/{{ site.author.github }}">

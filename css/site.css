@@ -505,7 +505,11 @@ code {
   color: #bfbfbf; }
 
 .full-width {
-  width: 100%; }
+  width: 100%;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+}
 
 img {
   border-radius: 4px;
@@ -514,4 +518,12 @@ img {
 #newsletter {
   border: 1px solid #e1e1e1;
   border-radius: 4px;
-  padding: 1rem 1.5rem; }
+  padding: 1rem 1.5rem;
+}
+
+blockquote {
+  border-left: .25em solid;
+  padding-left: 1em;
+  margin-left: 1em;
+  font-style: italic;
+}

@@ -3,7 +3,12 @@
   <h1>Zoe Landon<br>
     <small>also referred to as</small><br>
       Hupfen<br></h1>
-      <i class="subhead">Comments on technology, trivia, business, music, and furries</i>
+      <i class="subhead">Comments on
+        <a href="/technology">technology</a>,
+        <a href="/trivia">trivia</a>,
+        <a href="/business">business</a>,
+        <a href="/music">music</a>, and
+        <a href="/furries">furries</a></i>
     </hgroup>
 <hr>
 <nav id="sitemap">
@@ -21,7 +26,7 @@
   <h2>Latest Posts</h2>
   <ul class="unstyled">
     {% for post in site.posts %}
-      <li><a class="button full-width"  href="{{ post.url }}"><time>{{ post.date | date_to_string }}</time>: {{ post.title }}</a></li>
+      <li><a class="button full-width"  href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </nav>
