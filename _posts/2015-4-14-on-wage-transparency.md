@@ -13,7 +13,7 @@ But honestly, even that feels somewhat opaque. The conversation is among coworke
 
 [Buffer is pretty good about this.](https://open.bufferapp.com/introducing-open-salaries-at-buffer-including-our-transparent-formula-and-all-individual-salaries/) I can see that my salary is actually higher than more than half of their staff. (Although, they get equity, so on the whole they’re winning out.)
 
-I loosely entered the conversation last summer, with a guest post on the [Salary Fairy blog](https://salaryfairy.com/blog/how-I-got-a-40-percent-raise-using-salary-fairy) (which is also duplicated here). You’ll notice if you read it that it’s all percentages. Primarily, I didn’t want to brag, since that marked the point where I was making more than twice what the average millennial makes. I also didn’t feel like the absolutes really mattered, the point was relative scale in negotiation outcomes.
+I loosely entered the conversation last summer, with a guest post on the [Salary Fairy blog](https://salaryfairy.com/blog/how-I-got-a-40-percent-raise-using-salary-fairy) (which is also duplicated [here]({% post_url 2014-07-18-better-data-pay-rase %})). You’ll notice if you read it that it’s all percentages. Primarily, I didn’t want to brag, since that marked the point where I was making more than twice what the average millennial makes. I also didn’t feel like the absolutes really mattered, the point was relative scale in negotiation outcomes.
 
 But in the interest of true transparency, I’m going to go with real numbers.
 

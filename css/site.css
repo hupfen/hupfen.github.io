@@ -146,7 +146,6 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Futura-Book", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #e1e1e1; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -482,7 +481,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   margin-bottom: 1em; }
 
 .img-preview {
-  height: 100px;
+  height: 15vh;
   background-repeat: no-repeat;
   background-position: center;
   background-origin: center;
