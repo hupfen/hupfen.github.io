@@ -462,8 +462,11 @@ hr {
 html {
   background-color: #4d4d4d; }
 
-body {
+#🐰 {
   font-size: 2em; }
+
+.🐇 {
+    font-style: italic; }
 
 h1 {
   color: #c2b1d5;
@@ -510,7 +513,7 @@ code {
   overflow: hidden;
 }
 
-img {
+.📷 {
   border-radius: 4px;
   margin-bottom: 2em; }
 
