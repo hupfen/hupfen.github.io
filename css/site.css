@@ -529,3 +529,7 @@ blockquote {
   margin-left: 1em;
   font-style: italic;
 }
+
+.backlink:before {
+  content: '<-- ';
+}
