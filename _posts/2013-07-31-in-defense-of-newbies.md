@@ -4,7 +4,7 @@ title:  "In Defense of Newbies"
 slug: "in-defense-of-newbies"
 date:   2013-07-31 13:40:00
 category: business
-img: "img/newbietweet.jpg"
+img: "img/newbietweet.png"
 ---
 
 We had a good Launch Day at work today, which calls for celebratory Buffalo wings. As I was waiting around at [Fire on the Mountain](http://www.portlandwings.com/index.php), the above tweet [popped up](https://twitter.com/SaxxonFox/status/362732826505904129).
