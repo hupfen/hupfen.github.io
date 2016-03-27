@@ -515,7 +515,14 @@ code {
 
 .📷 {
   border-radius: 4px;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
+
+.📷-buy {
+  width: 100%;
+  vertical-align: middle;
+  height: 46px;
+}
 
 #newsletter {
   border: 1px solid #e1e1e1;
@@ -528,6 +535,15 @@ blockquote {
   padding-left: 1em;
   margin-left: 1em;
   font-style: italic;
+}
+
+.inline-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-link {
+  text-decoration: none;
 }
 
 .backlink:before {
