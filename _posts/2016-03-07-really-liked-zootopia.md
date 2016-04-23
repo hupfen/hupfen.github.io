@@ -7,7 +7,7 @@ category: furries
 img: "img/zootopia.jpg"
 ---
 
-*A 5-Minute Guide to Furry*
+## A 5-Minute Guide to Furry
 
 Maybe you were convinced by the trailers. Maybe you have a soft spot for animated movies. Maybe you just needed to get the kids out of the damn house for an afternoon.
 
