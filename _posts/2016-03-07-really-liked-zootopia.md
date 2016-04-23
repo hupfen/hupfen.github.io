@@ -13,7 +13,7 @@ Maybe you were convinced by the trailers. Maybe you have a soft spot for animate
 
 Point is, you went to see Zootopia and it was actually… good? Good in a way that went beyond “oh, yeah, that was good for adults too” and into “I’ve seen serious grown-up films that pulled more punches”. Good in a way that kinda sticks with you a little bit.
 
-Or maybe your kid really liked it. Maybe she wants to be a bunny cop now. Which sounds childish and silly until Monday comes and your mind starts to wander around the office. Why in the world would a predator want to be an actuary? Of course sloths work at the DMV, but what animals work where you do? What kind of animal would you be? And, hey, that might be a bit more interesting. Wouldn’t it?
+Or maybe your kid really liked it. Maybe she wants to be a bunny cop now. Which sounds childish and silly until Monday comes and your mind starts to wander around the office. Why in the world would a predator want to be an *actuary*? Of course sloths work at the DMV, but what animals work where you do? What kind of animal would you be? And, hey, that might be a bit more interesting. Wouldn’t it?
 
 ---
 
